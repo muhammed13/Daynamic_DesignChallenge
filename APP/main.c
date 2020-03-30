@@ -25,7 +25,6 @@ void Idle_Task(void)
 }
 int main(void)
 {
-
 	sei();
 	Car_SM_Init();
 	LCD_init();

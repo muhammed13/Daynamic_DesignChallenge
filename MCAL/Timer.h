@@ -13,6 +13,7 @@
 /*******************definitions, macros, ENUMs & types*******************/
 #define cpu_frq 16000000
 #define TIMER0_NUMBER_OF_TICKS 256
+#define TIMER2_NUMBER_OF_TICKS 256
 #define TIMER1_NUMBER_OF_TICKS_10_BITS 1024
 #ifndef SEC
 #define SEC 1000

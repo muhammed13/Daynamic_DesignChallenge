@@ -10,7 +10,6 @@
 #define EXTERNAL_INTERRUPTS_H_
 
 #include "interrupt.h"
-#include "../HAL/ICU.h"
 #include "../Common/std_types.h"
 #include "DIO.h"
 /**************************************ENUMs**********************************/
@@ -23,8 +22,8 @@ typedef enum EN_Edge_t{
 
 
 
-/*********************************global flags*********************************/
-
+/*********************************global variables*********************************/
+extern volatile void (*g_callBackPtr_INT2)(void);
 
 
 /************************************functions*******************************/
